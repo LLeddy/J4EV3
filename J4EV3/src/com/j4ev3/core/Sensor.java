@@ -8,13 +8,13 @@ public class Sensor {
 	/*
 	 * source: https://github.com/mindboards/ev3sources/blob/78ebaf5b6f8fe31cc17aa5dce0f8e4916a4fc072/lms2012/lms2012/Linux_AM1808/sys/settings/typedata.rcf
 	 *
-	   Type   Mode  Name      DataSets Format   Figures  Decimals  Views  Conn. Pins  RawMin   RawMax   PctMin  PctMax  SiMin    SiMax    Time  IdValue  Symbol
-	   ----   ----  --------  -------- ------   -------  --------  -----  ----- ----  -------  -------  ------  ------  -------  -------  ----  -------  --------
-	 	7     0     L-MOTOR-DEG   1       2     4        0         2      125   0x46   -180.0    180.0       0     100   -180.0    180.0     0        0  deg
+       Type   Mode  Name      DataSets Format   Figures  Decimals  Views  Conn. Pins  RawMin   RawMax   PctMin  PctMax  SiMin    SiMax    Time  IdValue  Symbol
+       ----   ----  --------  -------- ------   -------  --------  -----  ----- ----  -------  -------  ------  ------  -------  -------  ----  -------  --------
+	7     0     L-MOTOR-DEG   1       2     4        0         2      125   0x46   -180.0    180.0       0     100   -180.0    180.0     0        0  deg
     	7     1     L-MOTOR-ROT   1       2     4        0         2      125   0x46 -36000.0  36000.0       0     100   -100.0    100.0     0        0  rot
-		7 	  2 	L-MOTOR-SPD   1 	  0	    3	     0 	       2 	  125 	0x46   -100.0 	 100.0 	  -100 	   100	 -100.0    100.0 	 0 		  0  pct
+	7     2     L-MOTOR-SPD   1 	  0	3	 0 	   2 	  125 	0x46   -100.0 	 100.0 	  -100 	   100	 -100.0    100.0     0 	      0  pct
 		
-		8     0     M-MOTOR-DEG   1       2     4        0         2      125   0x46   -180.0    180.0       0     100   -180.0    180.0     0        0  deg
+	8     0     M-MOTOR-DEG   1       2     4        0         2      125   0x46   -180.0    180.0       0     100   -180.0    180.0     0        0  deg
         8     1     M-MOTOR-ROT   1       2     4        0         2      125   0x46 -36000.0  36000.0       0     100   -100.0    100.0     0        0  rot
         8     2     M-MOTOR-SPD   1       0     3        0         2      125   0x46   -100.0    100.0    -100     100   -100.0    100.0     0        0  pct
         
