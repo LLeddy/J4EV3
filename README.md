@@ -32,7 +32,7 @@ Most classes have static variables defined inside them that are used as paramete
 ## Build Instructions
 To build the library into a *.jar* file just use any method of exportation that packages the dependencies with the code. In eclipse you can simply create an empty main method in any file and export the project as an executable *.jar* file. If you do not export it with dependencies the BluetoothComm class will not work and will raise errors because of the lack of necessary libraries.
 
-If you wish to implement another means of communication with another platform or using another technology you can generate a *.jar* file containing only the classes in the **core** package. Then you just have to create a class the implements the interface CommInterface and code its methods
+If you wish to implement another means of communication with another platform or using another technology you can generate a *.jar* file containing only the classes in the **core** package. Then you just have to create a class the implements the interface CommInterface and code its methods.
 
 ### Additional Notes
 
