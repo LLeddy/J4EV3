@@ -36,5 +36,6 @@ If you wish to implement another means of communication with another platform or
 
 ### Additional Notes
 
+- A gist of the implementation of an Android communication class is available [here](https://gist.github.com/LLeddy/69ffcbe4e12b037d4c2545437ca2893e) and a compiled *.aar* file is available in the "build" folder. Simply import it in your Android project and create a Brick object passing a BluetoothDevice which you can obtain using the native Android Bluetooth API.
 - [Bluecove](http://bluecove.org/) was used to implement bluetooth communication in this library. Bluecove is licensed under the Apache License 2.0 and GNU GPL
 - For further knowledge on accepted parameter values refer to the LEGO Mindstorms EV3 Firmware Developer Kit available at https://education.lego.com/en-us/support/mindstorms-ev3/developer-kits
