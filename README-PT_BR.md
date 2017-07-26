@@ -25,7 +25,7 @@ brick.getLCD().drawLine(LCD.COLOR_BLACK, 0, 0, 45, 45);
 brick.setPattern(LED.LED_GREEN_FLASH);
 brick.getMotor().turnAtPower( (byte)(Motor.PORT_B+Motor.PORT_C) , 100);
 brick.getSensor().getValuePercent(Sensor.PORT_3, Sensor.TYPE_COLOR, Sensor.COLOR_AMBIENT);
-brick.playTone(100, 600, 1000)
+brick.getSpeaker().playTone(100, 600, 1000)
 ```
 A maioria das classes contém variáveis static definidas que são usadas como parâmetros em seus métodos.
 
